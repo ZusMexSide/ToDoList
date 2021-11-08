@@ -1,0 +1,25 @@
+.toDoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 15px auto;
+  border: 3px solid #c2ff05;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 900;
+}
+.toDoItem__text {
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.toDoItem__text--completed {
+  text-decoration: line-through 2px;
+}
+.toDoItem--completed {
+  border-color: #ff0534;
+}

@@ -1,0 +1,19 @@
+.search {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 30px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.search::placeholder {
+  color: #A5A5A5;
+}
+
+.search:focus {
+  outline-color: #1eff05;
+}

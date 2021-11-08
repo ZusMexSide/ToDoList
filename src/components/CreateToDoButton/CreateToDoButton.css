@@ -1,0 +1,24 @@
+.button {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 500;
+  background-color: #ff0571;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 32px;
+  z-index: 2;
+}
+
+.button svg {
+  stroke-width: 40px;
+}

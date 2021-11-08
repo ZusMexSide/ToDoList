@@ -1,0 +1,11 @@
+.Icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Icon-container--check svg:hover {
+  color: #1cedae !important;
+}
+.Icon-container--delete svg:hover {
+  color: #ff0534 !important;
+}

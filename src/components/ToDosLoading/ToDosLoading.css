@@ -1,0 +1,44 @@
+.LoadingToDo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 15px auto;
+  border: 3px solid #c2ff05;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.LoadingToDo__completeIcon {
+  width: 10%;
+}
+
+.LoadingToDo__deleteIcon {
+  width: 10%;
+}
+
+.LoadingToDo__text {
+  width: 80%;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.LoadingToDo-container,
+.LoadingToDo__completeIcon,
+.LoadingToDo__deleteIcon {
+  background: linear-gradient(90deg, rgba(194,255,5,1), rgb(0,150,124));
+  background-size: 400% 400%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
